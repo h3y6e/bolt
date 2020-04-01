@@ -1,0 +1,29 @@
+{
+  "name": "rob-mk2",
+  "version": "0.0.0",
+  "description": "5ebec's bolt",
+  "author": "heyhoe",
+  "private": true,
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/app.ts",
+    "start": "node dist/app.js",
+    "build": "tsc",
+    "clean": "rimraf dist/",
+    "format": "prettier --write '**/*.{js,ts,json,yml,md}' --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "@slack/bolt": "^1.8.0",
+    "@slack/logger": "^2.0.0",
+    "cron": "^1.8.2",
+    "dotenv": "^8.2.0",
+    "typescript": "^3.8.3"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.3",
+    "nodemon": "^2.0.2",
+    "prettier": "^1.19.1",
+    "rimraf": "^3.0.2",
+    "ts-node-dev": "^1.0.0-pre.44"
+  }
+}

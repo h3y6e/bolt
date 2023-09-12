@@ -1,4 +1,4 @@
-# bolt
+# slack bolt
 
 ## Development
 

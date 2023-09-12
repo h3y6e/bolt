@@ -1,5 +1,4 @@
-# R.O.B. Mk-II
-5ebec's bolt
+# bolt
 
 ## Development
 

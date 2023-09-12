@@ -1,5 +1,7 @@
 # slack bolt
 
+**SUSPENDED**
+
 ## Development
 
 ```zsh
